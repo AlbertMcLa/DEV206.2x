@@ -1,0 +1,2 @@
+C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
+C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
