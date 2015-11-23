@@ -35,7 +35,6 @@ G:\Edx\DEV206.2x\HomeWork\hwstart\RestaurantManager.Models\obj\Debug\MultipleQua
 C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.dll
 C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pdb
 C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\bin\Debug\RestaurantManager.Models.pri
-C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache
 C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.dll
 C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.pdb
 C:\Users\Spike\Documents\GitHub\DEV206.2x\hwstart\RestaurantManager.Models\obj\Debug\priconfig.xml

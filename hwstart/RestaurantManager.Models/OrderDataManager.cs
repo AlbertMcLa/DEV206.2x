@@ -3,20 +3,37 @@
 namespace RestaurantManager.Models
 {
     public class OrderDataManager : DataManager
-    {       
-        protected override void OnDataLoaded()
+    {    
+        private List<MenuItem> menuItems;        
+        private List<MenuItem> currentlySelectedMenuItems;   
+        
+        public List<MenuItem> MenuItems {
+            get { return this.menuItems; }
+            set {
+                this.menuItems = value;
+                this.OnPropertyChanged();
+            } // end set
+        } // end List<MenuItem> MenuItems
+
+        public List<MenuItem> CurrentlySelectedMenuItems
         {
+            get { return this.currentlySelectedMenuItems; }
+            set {
+                this.currentlySelectedMenuItems = value;
+                this.OnPropertyChanged();
+            } // end set
+        } // end List<MenuItem> CurrentlySelectedMenuItems
+
+
+        protected override void OnDataLoaded() {
             this.MenuItems = base.Repository.StandardMenuItems;
 
-            this.CurrentlySelectedMenuItems = new List<MenuItem>
-            {
+            this.CurrentlySelectedMenuItems = new List<MenuItem> {
                 this.MenuItems[3],
                 this.MenuItems[5]
             };
-        }
+        } // end void OnDataLoaded()
 
-        public List<MenuItem> MenuItems { get; set; }
 
-        public List<MenuItem> CurrentlySelectedMenuItems { get; set; }
-    }
-}
+    } // end class 
+}// end namespace
